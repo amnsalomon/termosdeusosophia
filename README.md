@@ -4,9 +4,11 @@ Site público estático dos Termos de Uso do painel SophIA e das integrações M
 
 Contato: **contato@starmindai.ai**.
 
+Endereço cadastral: **Jundiaí/SP, Brasil**.
+
 ## Conteúdo
 
-Versão **1.0 — 30/09/2026**. São 18 seções sobre contratação SaaS mensal, aceite, acessos, uso responsável, IA e revisão humana, MCP/ChatGPT e outros clientes, comunicações, terceiros, privacidade, direitos dos titulares, propriedade intelectual, atendimento, pagamentos, cancelamento e responsabilidades.
+Versão **1.0.1 — 30/09/2026**. São 18 seções sobre contratação SaaS mensal, aceite, acessos, uso responsável, IA e revisão humana, MCP/ChatGPT e outros clientes, comunicações, terceiros, privacidade, direitos dos titulares, propriedade intelectual, atendimento, pagamentos, cancelamento e responsabilidades.
 
 A página usa a identidade visual do manual SophIA. Contém busca local, índice, navegação por seção, leitura integral, versão móvel e impressão integral pelo navegador. Não depende de instalação, bibliotecas externas, banco de dados ou credenciais. Não contém analytics, formulários de coleta ou mecanismos de cobrança/aceite.
 
@@ -14,6 +16,7 @@ A página usa a identidade visual do manual SophIA. Contém busca local, índice
 
 - `index.html`: conteúdo, estilos e navegação do site.
 - `.nojekyll`: publicação direta dos arquivos estáticos no GitHub Pages.
+- `CNAME`: domínio próprio `terms.starmindai.ai`.
 
 ## Publicação
 
@@ -23,7 +26,7 @@ Endereço padrão após a ativação:
 
 `https://amnsalomon.github.io/termosdeusosophia/`
 
-Não foi definido domínio próprio. Caso seja adotado, configure o domínio e o DNS no GitHub Pages. Não reutilize o `CNAME` do manual, que pertence a outro site.
+O domínio próprio configurado no arquivo `CNAME` é `terms.starmindai.ai`. Mantenha o DNS e o domínio personalizado correspondentes no GitHub Pages. Não reutilize o `CNAME` do manual, que pertence a outro site.
 
 ## Manutenção do texto
 
@@ -31,7 +34,7 @@ A publicação deste documento não registra o aceite de clientes existentes e n
 
 Condições comerciais particulares — preço, vencimento, limites, reajuste, permanência, SLA e prazos de conservação — devem refletir o contrato e as práticas reais; não foram inventadas neste documento.
 
-O endereço cadastral da fornecedora não foi informado e deve ser completado nos documentos e meios de oferta/contratação aplicáveis. A redação jurídica e sua incorporação contratual devem ser validadas pelo responsável jurídico da StarMind.
+O endereço cadastral é apresentado como **Jundiaí/SP, Brasil**, conforme informado pela StarMind. A redação jurídica e sua incorporação contratual devem ser validadas pelo responsável jurídico da StarMind.
 
 A Política de Privacidade é um documento separado: https://privacy.starmindai.ai. Antes da submissão de um plugin público, ela deve descrever efetivamente os dados, finalidades, destinatários, conservação e controles da integração. Os Termos não substituem essa política nem garantem aprovação em catálogos de terceiros. O código do servidor MCP não foi alterado por este projeto.
 
